@@ -1,0 +1,28 @@
+{
+  "short_name": "Cook it Yourself",
+  "name": "Cook it Yourself",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#db36a4",
+  "theme-color": "#db36a4",
+  "background_color": "#f7ff00",
+  "background-color": "#f7ff00",
+  "description": "Create and Find Recipes and.. Cook it Yourself! App criado por Ícaro Paiva para o último desafio do curso de Desenvolvimento disponibilizado pela ACCT global.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]  
+}

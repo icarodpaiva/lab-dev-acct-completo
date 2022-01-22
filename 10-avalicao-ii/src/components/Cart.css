@@ -1,0 +1,106 @@
+.containerProduct {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product {
+  width: 100%;
+  margin: 10px;
+  padding: 8px;
+  padding-bottom: 2px;
+  border: 1px solid #833ab4;
+  border-radius: 5px;
+  outline: 0;
+  box-shadow: 0 0 8px #833ab44d;
+  background-color: white;
+  color: #833ab4;
+  font-weight: bold;
+  text-align: center;
+}
+
+.product .product-info p {
+  padding: 2px 0;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+}
+
+.product .product-info p span,
+.product .product-info div span {
+  color: #fcb045;
+  font-size: 0.7rem;
+}
+
+.product .quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product .quantity div > div {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  border: 1px solid #833ab4;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.product .quantity div > div span {
+  color: black;
+}
+.product button {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.192);
+  box-shadow: none;
+  background-color: transparent;
+  font-size: 0.7rem;
+  cursor: pointer;
+  color: #fd1d1d;
+}
+
+@media (min-width: 1550px) {
+  .product .product-info p {
+    font-size: 1.3rem;
+  }
+  .product .product-info p span,
+  .product .product-info div span {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .product {
+    width: calc(100% - 200px);
+  }
+
+  .product .product-info p {
+    font-size: 1.3rem;
+  }
+
+  .product .product-info p span,
+  .product .product-info div span {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .product {
+    width: calc(100% - 100px);
+  }
+
+  .product .product-info p {
+    font-size: 0.9rem;
+  }
+
+  .product .product-info p span,
+  .product .product-info div span {
+    font-size: 0.8rem;
+  }
+}

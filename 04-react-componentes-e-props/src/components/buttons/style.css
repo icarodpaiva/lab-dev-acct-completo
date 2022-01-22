@@ -1,0 +1,34 @@
+.grid-buttons{
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    height: auto;
+    width: 300px;
+  }
+  
+  .grid-button-item{
+    border-radius: 10px;
+      background-color: rgb(133, 56, 56);
+      padding: 30px;
+      font-size: 22px;
+      text-align: center;
+      border: 5px solid  rgb(70, 14, 14);
+      
+  }
+  .grid-button-item:hover{
+    background-color: rgb(73, 22, 22);
+  }
+
+  .clear{
+      background-color: rgb(124, 3, 3);
+  }
+
+  .delete{
+    background-color: rgb(216, 71, 27);
+}
+
+.calculate{
+    background-color: rgb(44, 138, 0);
+}

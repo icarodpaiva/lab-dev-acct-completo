@@ -1,0 +1,106 @@
+.pesquisa-bg {
+  background-image: url('https://wallpapercave.com/wp/wp2776799.jpg');
+  /* background-size: cover; */
+}
+
+.pesquisa {
+  flex-direction: column;
+  max-width: 960px;
+  flex: 1;
+  min-height: calc(100vh - 80px);
+  padding: 15px 5px 30px 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.616);
+  background-color: var(--c2);
+}
+
+.pesquisa h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--c3);
+}
+
+.pesquisa > h2 {
+  margin-bottom: 10px;
+}
+
+.pesquisa-container {
+  align-items: stretch;
+}
+
+.pesquisa-container span {
+  color: var(--c3);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.pesquisa-container > div {
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  margin: 5px;
+  padding: 0 5px;
+  text-align: center;
+  border: 2px solid var(--c3);
+  border-radius: 5px;
+  box-shadow: 2px 2px 6px rgba(146, 3, 3, 0.651);
+}
+
+.pesquisa-container input,
+.pesquisa-container select {
+  width: 80%;
+  margin: 3px;
+  padding: 6px;
+  border: 1px solid var(--c3);
+  border-radius: 6px;
+  text-align: center;
+  outline: 0;
+}
+
+.pesquisa h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  color: var(--c1);
+}
+
+.pesquisa-tipo-img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.pesquisa-tipo-img img {
+  width: 100%;
+}
+
+.pesquisa button {
+  margin: 10px;
+}
+
+.pesquisa-container .pos-pesquisa-banner {
+  padding: 10px;
+}
+
+.pos-pesquisa-banner-nome,
+.pos-pesquisa-banner-comoFazer {
+  word-break: break-word;
+}
+
+.pos-pesquisa-banner-comoFazer li {
+  padding: 3px 0;
+  border-bottom: 1px solid rgba(255, 0, 0, 0.473);
+}
+
+.pos-pesquisa-banner-img {
+  width: 100%;
+}
+
+.pos-pesquisa-banner-img img {
+  width: 100%;
+}
+
+.pesquisa-container h3 {
+  padding-top: 5px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--c3);
+}

@@ -1,0 +1,63 @@
+.contato-bg {
+  background-image: url("https://wallpapercave.com/wp/wp2776799.jpg");
+  /* background-size: cover; */
+}
+
+.contato {
+  flex-direction: column;
+  margin: auto;
+  max-width: 960px;
+  flex: 1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.616);
+  background-color: var(--c2);
+}
+
+.contato-info {
+  flex-direction: column;
+  margin: 30px;
+}
+
+.contato-info h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--c3);
+}
+
+.contato-info-banners {
+  flex-direction: column;
+}
+
+.contato-info-banners h2 {
+  margin-top: 15px 0;
+  text-align: center;
+  font-size: 2rem;
+  color: var(--c1);
+}
+
+.contato-info-banners-img {
+  max-width: 350px;
+}
+
+.contato-info-banners-img img {
+  width: 100%;
+}
+
+.contato-info-banners-banner {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contato-info-banners-banner li {
+  margin: 5px;
+  padding: 5px;
+}
+
+.contato-info-banners-banner-img {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+
+.contato-info-banners-banner-img img {
+  width: 100%;
+}

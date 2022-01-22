@@ -1,0 +1,24 @@
+{
+  "name": "15-avaliacao-iii",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://gitlab.com/icaropaivadbz/15-avaliacao-iii.git",
+  "author": "icaro paiva <icaropaivadbz.gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.11.11",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jsonexport": "^3.0.2",
+    "@types/jstoxml": "^2.0.1",
+    "axios": "^0.24.0",
+    "express": "^4.17.1",
+    "jsonexport": "^3.2.0",
+    "jstoxml": "^2.2.6"
+  },
+  "scripts": {
+    "start": "nodemon src/index.ts"
+  }
+}

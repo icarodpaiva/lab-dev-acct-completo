@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+/* Área do formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 300px;
+  background-color: #124559;
+  margin: 0 10px;
+  padding-bottom: 5px;
+}
+
+fieldset {
+  background-color: #eff6e0;
+  margin-bottom: 5px;
+}
+
+legend {
+  padding: 5px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  background-color: #aec3b0;
+  color: #01161e;
+  border: 1px solid black;
+}
+
+label {
+  margin: 15px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+form,
+fieldset,
+legend,
+input,
+textarea {
+  border-radius: 5px;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: monospace;
+  outline: 0;
+  border: 0;
+  background-color: #124559;
+  color: #eff6e0;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+input[type='submit'] {
+  background-color: #aec3b0;
+  color: #01161e;
+  width: auto;
+  margin: auto;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: red;
+}
+
+/* Área da tabela */
+table {
+  margin: 0 10px;
+  flex: 1;
+  border: 1px solid black;
+  background-color: #eff6e0;
+  border-radius: 5px;
+  padding: 10px;
+  word-break: break-all;
+}
+
+th,
+td {
+  min-width: 130px;
+  font-size: 1.1rem;
+  border: 1px solid black;
+  padding: 10px;
+  font-family: monospace;
+  background-color: #124559;
+  color: #eff6e0;
+}
+
+th {
+  padding: 5px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  background-color: #aec3b0;
+  color: #01161e;
+}
+
+tr:first-child td {
+  color: red;
+}
+
+@media (max-width: 1024px) {
+  div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  table {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 510px) {
+  table {
+    min-width: 300px;
+  }
+
+  th {
+    display: none;
+  }
+
+  td {
+    min-width: none;
+    display: block;
+  }
+
+  .nome::before,
+  .telefone::before,
+  .email::before,
+  .descricao::before {
+    display: inline-block;
+    color: red;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .nome::before {
+    content: 'Nome: ';
+  }
+
+  .telefone::before {
+    content: 'Telefone: ';
+  }
+
+  .email::before {
+    content: 'E-mail: ';
+  }
+
+  .descricao::before {
+    content: 'Descrição: ';
+  }
+}

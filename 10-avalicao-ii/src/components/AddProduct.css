@@ -1,0 +1,45 @@
+.addProduct,
+.submitButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addProduct input,
+.addProduct form {
+  display: block;
+  padding: 8px;
+  border: 1px solid #833ab4;
+  border-radius: 5px;
+  outline: 0;
+  box-shadow: 0 0 8px #833ab44d;
+  background-color: white;
+  color: #833ab4;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.addProduct form {
+  margin-top: 10px;
+}
+
+.addProduct label {
+  display: block;
+  padding: 10px;
+}
+
+.addProduct input {
+  margin-top: 10px;
+  color: #fcb045;
+}
+
+.addProduct input::placeholder {
+  color: rgba(204, 204, 204, 0.904);
+}
+
+.submitButton input {
+  color: #fd1d1d;
+  cursor: pointer;
+}

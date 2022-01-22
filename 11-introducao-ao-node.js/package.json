@@ -1,0 +1,20 @@
+{
+  "name": "intro-node",
+  "version": "1.0.0",
+  "description": "introducao ao node",
+  "main": "index.js",
+  "repository": "https://gitlab.com/icaropaivadbz/11-introducao-ao-node.js.git",
+  "author": "icaro paiva <icaropaivadbz.gmail.com>",
+  "license": "UNLICENSED",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}

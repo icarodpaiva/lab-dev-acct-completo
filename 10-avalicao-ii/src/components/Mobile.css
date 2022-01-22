@@ -1,0 +1,25 @@
+.mobile-cart {
+  position: fixed;
+  right: 0;
+  top: 0;
+  display: none;
+}
+
+.mobile-up {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  display: none;
+}
+
+.mobile-cart,
+.mobile-up {
+  color: #fd1d1d;
+}
+
+@media (max-width: 800px) {
+  .mobile-cart,
+  .mobile-up {
+    display: block;
+  }
+}

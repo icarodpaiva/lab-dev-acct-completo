@@ -1,0 +1,218 @@
+.cadastro-bg {
+  background-image: url('https://wallpapercave.com/wp/wp2776799.jpg');
+  /* background-size: cover; */
+}
+
+.cadastro {
+  flex-direction: column;
+  max-width: 960px;
+  flex: 1;
+  min-height: calc(100vh - 80px);
+  padding: 15px 5px 30px 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.616);
+  background-color: var(--c2);
+  overflow-x: hidden;
+}
+
+.cadastro h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--c3);
+}
+
+.cadastro-ingredientes h2,
+.cadastro-tools h2,
+.cadastro-howToMake h2,
+.cadastro-informacoes h2 {
+  width: 80%;
+  margin: 10px;
+  text-align: center;
+  font-size: 2rem;
+  color: var(--c1);
+}
+
+.cadastro-alternar {
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.adicionado {
+  background-color: rgba(30, 128, 0, 0.384);
+}
+
+.cadastro-banner {
+  flex-direction: column;
+  justify-content: space-between;
+  width: 280px;
+  margin: 5px;
+  padding: 3px 5px;
+  text-align: center;
+  border: 2px solid var(--c3);
+  border-radius: 5px;
+  box-shadow: 2px 2px 6px rgba(146, 3, 3, 0.651);
+}
+
+.howToMake {
+  width: auto;
+}
+
+.cadastro-banner-img {
+  width: 100%;
+  height: 150px;
+}
+
+.cadastro-banner-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cadastro-banner-nome {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 5px;
+}
+
+.cadastro-banner input,
+.cadastro-banner select {
+  width: 80%;
+  margin: 2px 0;
+  padding: 5px;
+  border: 1px solid var(--c3);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.cadastro-banner input::placeholder {
+  text-align: center;
+  color: var(--c3);
+}
+
+.cadastro-howToMake {
+  flex-direction: column;
+}
+
+.cadastro-howToMake .cadastro-banner {
+  /* max-width: none; */
+  position: relative;
+  border: 3px solid var(--c1);
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.404);
+}
+
+.cadastro-howToMake-img {
+  width: 280px;
+}
+
+.cadastro-howToMake-img img {
+  width: 100%;
+}
+
+.cadastro-howToMake-eliminar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.cadastro-howToMake label {
+  display: block;
+  position: absolute;
+  top: 170px;
+  left: 35px;
+  right: 35px;
+  bottom: 35px;
+  text-align: center;
+}
+
+.cadastro-howToMake label span,
+.cadastro-informacoes label span {
+  font-family: 'Cookie', Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  color: var(--c3);
+}
+
+.cadastro-howToMake textarea {
+  border: 1px solid black;
+  padding: 10px;
+  width: 100%;
+  height: 80%;
+  border: 0;
+  border-radius: 20px;
+  outline: 0;
+  resize: none;
+}
+
+.cadastro-howToMake textarea::placeholder {
+  text-align: center;
+  color: var(--c3);
+}
+
+.cadastro-howToMake button {
+  margin: 5px;
+}
+
+.cadastro-informacoes {
+  flex-direction: column;
+}
+
+.cadastro-informacoes-banner {
+  flex-direction: column;
+}
+
+.cadastro-informacoes-img {
+  max-width: 350px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 15px 0;
+}
+
+.cadastro-informacoes-img img {
+  width: 100%;
+}
+
+.cadastro-informacoes label {
+  flex-direction: column;
+  text-align: center;
+  width: 90%;
+}
+
+.cadastro-informacoes label input,
+.cadastro-informacoes label select {
+  font-weight: bold;
+  margin: 3px;
+  padding: 5px;
+  border: 1px solid var(--c1);
+  border-radius: 5px;
+}
+
+.cadastro-informacoes label input::placeholder,
+.cadastro-informacoes label select::placeholder {
+  color: var(--c1);
+}
+
+.cadastro-informacoes .timeUnitCampo,
+.cadastro-informacoes .timeQuantityCampo,
+.cadastro-informacoes .servingsPerPersonCampo,
+.cadastro-informacoes .nameCampo,
+.cadastro-informacoes .imageCampo {
+  width: 150px;
+  text-align: center;
+}
+
+.cadastro-informacoes .nameCampo,
+.cadastro-informacoes .imageCampo {
+  width: 100%;
+  margin: 0 5px;
+}
+
+.cadastro-informacoes label span {
+  font-size: 2rem;
+  margin-bottom: -10px;
+}
+
+.cadastro-informacoes-banner button {
+  margin-top: 20px;
+}
